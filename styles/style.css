@@ -190,7 +190,6 @@ a {
   margin: 0 476.5px;
   margin-top: 200px;
   align-items: center;
-  z-index: 10;
 }
 .banner__buttons {
   width: 260px;
@@ -199,6 +198,7 @@ a {
   display: flex;
   flex-direction: row;
   column-gap: 20px;
+  z-index: 10;
 }
 .banner__singel_btn {
   width: 70px;
@@ -224,6 +224,7 @@ a {
   width: 967px;
   height: 258px;
   margin-top: 30px;
+  z-index: 5;
 }
 .banner__main_heading {
   font-family: var(--poppins);
