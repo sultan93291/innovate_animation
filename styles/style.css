@@ -179,6 +179,7 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
+  z-index: 0;
 }
 .banner__wrapper {
   height: 792px;
@@ -189,6 +190,7 @@ a {
   margin: 0 476.5px;
   margin-top: 200px;
   align-items: center;
+  z-index: 10;
 }
 .banner__buttons {
   width: 260px;
@@ -214,6 +216,7 @@ a {
   transition: 0.3s linear;
 }
 .banner__singel_btn:hover {
+  cursor: pointer;
   color: var(--common_btn_color);
   border-color: var(--common_btn_color);
 }
