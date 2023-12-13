@@ -211,6 +211,11 @@ a {
   line-height: 20px;
   color: var(--white);
   opacity: 0.6;
+  transition: 0.3s linear;
+}
+.banner__singel_btn:hover {
+  color: var(--common_btn_color);
+  border-color: var(--common_btn_color);
 }
 .bannner__headings {
   width: 967px;
